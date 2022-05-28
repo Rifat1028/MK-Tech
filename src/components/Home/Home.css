@@ -1,0 +1,40 @@
+.top_menu {
+    position: absolute;
+    margin: -8px -8px;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40%;
+  }
+
+  @media only screen and (min-width: 720px) {
+    .top_menu {
+      position: inherit;
+      top: 0;
+    }
+  }
+  
+
+ 
+  
+  li {
+    float: left;
+    color: white;
+  }
+  
+  li a {
+    display: block;
+    color: #644F9C;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+  }
+  
+  
+
+  
+  .active {
+    color: #FF6F00;
+    border-radius: 25%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }

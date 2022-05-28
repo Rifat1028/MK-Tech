@@ -1,0 +1,103 @@
+.title > h2 {
+    color: #FF6F00;
+    background: #ffffff;
+  
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .title > h2::after {
+    content: "";
+    margin: auto;
+    height: 3px;
+    display: block;
+    background: grey;
+    width: 60%;
+  }
+  
+  .title > h2:hover:after {
+    content: "";
+    width: 0px;
+    height: 3px;
+    display: block;
+    background: #644f9c;
+    transition: 1500ms;
+    width: 100%;
+  }
+  
+  .inner_content > h2 {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    font-weight: 500;
+  }
+  
+  
+  .heading {
+    color: #644f9c;
+    
+  }
+
+  .info {
+    float: left;
+    width: 40%;
+    padding: 0px 2%;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #404040;
+    margin-bottom: 4%;
+    margin: 2%;
+  }
+  
+
+  
+  .info > p{
+    padding-bottom: 10%;
+  }
+
+  .info >a{
+      color: #644f9c;
+  }
+
+  .blank_space {
+    width: 100%;
+    margin-top: 5%;
+    float: left;
+  }
+
+  span {
+    display: inline-block;
+    position: relative;
+    padding: 0 10px;
+  }
+  span:before,
+  span:after {
+    content: '';
+    display: block;
+    width: 1000px;
+    position: absolute;
+    top: 0.73em;
+    border-top: 1px dotted black;
+  }
+  span:before {
+    right: 100%;
+  }
+  span:after {
+    left: 100%;
+  }
+
+  .service_button_bar>button{
+      padding: 5px 20px;
+      border-radius: 20%;
+      background-color: #644f9c;
+  }
+
+  .service_button_bar .S_active{
+      background-color: #FF6F00;
+  }
+
+  .space {
+    width: 50px;
+    height: auto;
+    display: inline-block;
+  }

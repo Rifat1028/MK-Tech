@@ -1,0 +1,90 @@
+.down_button {
+    border: none;
+    text-align: center;
+    margin: 0px 10px;
+    padding: 5px 10px;
+    font-size: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .down_button:nth-child(3) {
+    background-color: #3b5998;
+    color: white;
+  }
+  
+  .down_button:nth-child(4) {
+    background-color: #00acee;
+    color: white;
+  }
+  
+  .down_button:nth-child(5) {
+    background: radial-gradient(
+        circle farthest-corner at 35% 90%,
+        #fec564,
+        transparent 50%
+      ),
+      radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+      radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+      radial-gradient(
+        ellipse farthest-corner at 20% -50%,
+        #5258cf,
+        transparent 50%
+      ),
+      radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+      radial-gradient(
+        ellipse farthest-corner at 60% -20%,
+        #893dc2,
+        transparent 50%
+      ),
+      radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+      linear-gradient(
+        #6559ca,
+        #bc318f 30%,
+        #e33f5f 50%,
+        #f77638 70%,
+        #fec66d 100%
+      );
+    color: white;
+  }
+  
+  .bottom_intro {
+    float: left;
+    color: beige;
+    text-align: center;
+    margin: 0px -8px;
+    width: 100%;
+    padding: 25px 8px;
+    background-color: black;
+  }
+  
+  .intro {
+    float: left;
+    width: 25%;
+    min-height: 1px;
+  }
+  
+  .bottom_service_info {
+    float: left;
+    width: 25%;
+    min-height: 1px;
+  }
+  
+  .bottom_service_info > p {
+    padding: 5px;
+  }
+  
+  
+  .offer {
+    float: left;
+    width: 25%;
+  }
+  
+  .intro > h4,
+  .offer > h4,
+  .bottom_service_info > h4,
+  .support > h4 {
+    padding-bottom: 10px;
+    color: #644F9C;
+  }
+  
